@@ -7,7 +7,7 @@
 #bg1{
     background-color: rgb(122, 122, 247);
 }
-#Welcome{
+.Welcome{
     display:flex;
     align-items: center;
     flex-direction: column;
@@ -40,8 +40,31 @@
 #bg2{
     background-color: rgb(125, 240, 175);
 }
-.login{
+.login-box{
     border: 0.3rem solid black;
-    height: 40rem;
-    width: 35rem;
+    height: 30rem;
+    width: 25rem;
+    margin-top: 12rem;
+    background-color:darkcyan;
+    box-shadow: ;
+}
+.Log-input{
+    height: 3rem;
+    width: 15rem;
+    margin-top: 1rem;
+}
+.LI-words{
+    font-size: 1.6rem;
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 3.6rem;
+}
+#FC-link{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+#submit-btn{
+    height: 3rem;
+    width: 5rem;
+    margin-top: 2rem;
 }
