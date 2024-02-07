@@ -41,23 +41,35 @@
     background-color: rgb(125, 240, 175);
 }
 .login-box{
-    border: 0.3rem solid black;
-    height: 30rem;
-    width: 25rem;
+    border: 0.3rem solid rgb(1, 113, 113);
+    height: 37rem;
+    width: 30rem;
     margin-top: 12rem;
     background-color:darkcyan;
-    box-shadow: ;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#log-info{
+    text-decoration:underline;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .Log-input{
-    height: 3rem;
-    width: 15rem;
-    margin-top: 1rem;
+    height: 3.5rem;
+    width: 18rem;
+    border: solid rgb(1, 113, 113);
+    font-size: 1.5rem;
+}
+#pass-input{
+    margin-top: 1.5rem;
 }
 .LI-words{
     font-size: 1.6rem;
     text-align: left;
-    margin-top: 2rem;
-    margin-left: 3.6rem;
+    margin-top: 1rem;
+    margin-left: 4.6rem;
 }
 #FC-link{
     font-size: 1.2rem;
@@ -65,6 +77,14 @@
 }
 #submit-btn{
     height: 3rem;
-    width: 5rem;
-    margin-top: 2rem;
+    width: 7rem;
+    margin-top: 2.5rem;
+    border-radius: 13px;
+    border: solid rgb(1, 113, 113);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#submit-btn:hover {
+    background-color:black;
+    color: white;
 }
